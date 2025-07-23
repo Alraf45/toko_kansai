@@ -13,9 +13,14 @@ Route::post('/register', [AuthController::class, 'register']);
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/product', function () {
+    return view('product');
 });
+
+Route::get('/colors', function () {
+    return view('colors');
+});
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -29,7 +34,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/', function () {
     return view('home');
 });
-
+   
 });
 
 require __DIR__.'/auth.php';

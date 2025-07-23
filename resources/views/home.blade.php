@@ -20,17 +20,18 @@
 </head>
 <body class="bg-white font-sans text-gray-700">
   <!-- Navbar container -->
-  <nav class="w-full flex items-center justify-between px-8 py-4 shadow-sm sticky top-0 bg-white z-50">
+  <nav class="w-full flex items-center justify-between px-8 py-3 shadow-sm sticky top-0 bg-white z-50">
     <!-- Left part: Logo -->
     <div class="flex items-center space-x-2">
       <img src="img/452_main.jpg" class="h-20"> 
     </div>
     
     <!-- Center part: Navigation links -->
-    <ul class="hidden md:flex space-x-8 text-gray-700 font-medium text-sm select-none">
-      <li><a href="#" class="hover:text-blue-600">Home</a></li>
-      <li><a href="product" class="hover:text-blue-600">Product</a></li>
-      <li><a href="#" class="hover:text-blue-600">Color</a></li>
+    <ul class="hidden md:flex space-x-10 text-gray-700 font-medium text-sm select-none">
+      <li><a href="/" class="hover:text-blue-400 mx-auto">Home</a></li>
+      <li><a href="/product" class="hover:text-blue-400 ">Product</a></li>
+      <li><a href="/colors" class="hover:text-blue-400">Colors</a></li>
+      <li><a href="/login" class="hover:text-blue-400 text-blue-400 ">Login</a></li>
     </ul>
 
     <!-- Right part: Search input + icons -->
@@ -39,11 +40,11 @@
       <div class="relative w-72 hidden md:block">
         <input
           type="text"
-          placeholder="What are you looking for?"
+          placeholder="Buruan Cari Jingg!"
           class="w-full rounded-lg border border-gray-300 py-2 pl-4 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           aria-label="Search for products"
         />
-        <button type="submit" aria-label="Search" class="absolute right-2 top-2.5 text-gray-400 hover:text-blue-600">
+        <button type="submit" aria-label="Search" class="absolute right-2 top-2.5 text-gray-400 hover:text-blue-400">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round"
@@ -53,7 +54,7 @@
       </div>
 
       <!-- Cart icon -->
-      <button aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-600 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+      <button aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-400 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" 
           viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round"
@@ -62,6 +63,11 @@
       </button>
     </div>
   </nav>
+
+  <div class="mt-32 max-w-xl mx-auto h-80 bg-slate-300 bg-contain bg-no-repeat bg-center rounded-2xl shadow-xl shadow-slate-500 overflow-auto blur-sm hover:blur-none" style="background-image: url('/img/1.jpg.jpeg');">
+  </div>
+
 </body>
 </html>
 
+ 
