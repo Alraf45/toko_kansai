@@ -40,7 +40,7 @@
       <div class="relative w-72 hidden md:block">
         <input
           type="text"
-          placeholder="Buruan Cari Jingg!"
+          placeholder="Cari Produk!"
           class="w-full rounded-lg border border-gray-300 py-2 pl-4 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           aria-label="Search for products"
         />
@@ -70,4 +70,3 @@
 </body>
 </html>
 
- 
