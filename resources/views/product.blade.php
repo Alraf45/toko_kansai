@@ -84,10 +84,243 @@
 
 
 <div class="mt-10 max-w-6xl mx-auto h-96 bg-cover bg-center bg-no-repeat shadow-slate-500 overflow-auto"
-     style="background-image: url('/img/1.jpg.jpeg');">
+     style="background-image: url('/img/Web-side-banner-.png');">
 </div>
 
+<div class="mb-20"></div>
 
+
+<div class="bg-white">
+    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900">Products Details</h2>
+      <div class="mb-16"></div>
+
+
+<div class="mt-3 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-2 gap-y-12">
+  <!-- ITEM 1 -->
+  <div class="group relative">
+    <img src="/img/KANSAI FTALIT DUO.png" alt="KANSAI FTALIT DUO"
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+    <div class="mt-4 flex justify-between">
+      <div>
+        <h3 class="text-sm text-gray-700 font-semibold">
+          <a href="/product">
+            <span aria-hidden="true" class="absolute inset-0"></span>
+            KANSAI FTALIT DUO
+          </a>
+        </h3>
+        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+        <p class="mt-3 text-sm font-medium text-gray-900">`(*>﹏<*)′</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ITEM 2 -->
+  <div class="group relative">
+    <img src="/img/KANSAI GLIMMER 2,5 LITER.png" alt="KANSAI SPLESH GLIMMER"
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+    <div class="mt-4 flex justify-between">
+      <div>
+        <h3 class="text-sm text-gray-700 font-semibold">
+          <a href="#">
+            <span aria-hidden="true" class="absolute inset-0"></span>
+            KANSAI SPLESH GLIMMER
+          </a>
+        </h3>
+        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+        <p class="mt-3 text-sm font-medium text-gray-900">^_~</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ITEM 3 -->
+  <div class="group relative">
+    <img src="/img/SPLESH Kaleng Plastik 2,5 L - Copy.png" alt="KANSAI SPLESH"
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+    <div class="mt-4 flex justify-between">
+      <div>
+        <h3 class="text-sm text-gray-700 font-semibold">
+          <a href="#">
+            <span aria-hidden="true" class="absolute inset-0"></span>
+            KANSAI SPLESH
+          </a>
+        </h3>
+        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+        <p class="mt-3 text-sm font-medium text-gray-900">`(*>﹏<*)′</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ITEM 4 -->
+  <div class="group relative">
+    <img src="/img/FA_Kansai-Diamond-Shield_2,5L_Display.png" alt="KANSAI DIAMOND SHIELD"
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+    <div class="mt-4 flex justify-between">
+      <div>
+        <h3 class="text-sm text-gray-700 font-semibold">
+          <a href="#">
+            <span aria-hidden="true" class="absolute inset-0"></span>
+            KANSAI DIAMOND SHIELD 12-IN-1
+          </a>
+        </h3>
+        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+        <p class="mt-3 text-sm font-medium text-gray-900">^_~</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="mb-20"></div>
+
+<div class="mt-3 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-2 gap-y-12">
+  <!-- ITEM 1 -->
+  <div class="group relative">
+    <img src="/img/Kansai Property Eksterior 5 Kg (1).png" alt="KANSAI FTALIT DUO"
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+    <div class="mt-4 flex justify-between">
+      <div>
+        <h3 class="text-sm text-gray-700 font-semibold">
+          <a href="/product">
+            <span aria-hidden="true" class="absolute inset-0"></span>
+            KANSAI FTALIT DUO
+          </a>
+        </h3>
+        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+        <p class="mt-3 text-sm font-medium text-gray-900">`(*>﹏<*)′</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ITEM 2 -->
+  <div class="group relative">
+    <img src="/img/RAIN BLOCK Kaleng Plastik 4kg.png" alt="KANSAI SPLESH GLIMMER"
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+    <div class="mt-4 flex justify-between">
+      <div>
+        <h3 class="text-sm text-gray-700 font-semibold">
+          <a href="#">
+            <span aria-hidden="true" class="absolute inset-0"></span>
+            KANSAI SPLESH GLIMMER
+          </a>
+        </h3>
+        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+        <p class="mt-3 text-sm font-medium text-gray-900">^_~</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ITEM 3 -->
+  <div class="group relative">
+    <img src="/img/Kansai PEARL Sheen 2,5 L.png" alt="KANSAI SPLESH"
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+    <div class="mt-4 flex justify-between">
+      <div>
+        <h3 class="text-sm text-gray-700 font-semibold">
+          <a href="#">
+            <span aria-hidden="true" class="absolute inset-0"></span>
+            KANSAI SPLESH
+          </a>
+        </h3>
+        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+        <p class="mt-3 text-sm font-medium text-gray-900">`(*>﹏<*)′</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ITEM 4 -->
+  <div class="group relative">
+    <img src="/img/Kansai FTALIT 1 Kg.png" alt="KANSAI DIAMOND SHIELD"
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+    <div class="mt-4 flex justify-between">
+      <div>
+        <h3 class="text-sm text-gray-700 font-semibold">
+          <a href="#">
+            <span aria-hidden="true" class="absolute inset-0"></span>
+            KANSAI DIAMOND SHIELD 12-IN-1
+          </a>
+        </h3>
+        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+        <p class="mt-3 text-sm font-medium text-gray-900">^_~</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mb-20"></div>
+
+<div class="mt-3 px-6 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-92 gap-y-12">
+  <!-- ITEM 1 -->
+  <div class="group relative">
+    <img src="/img/Kansai Tropic 5 Kg.png" alt="KANSAI FTALIT DUO"
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+    <div class="mt-4 flex justify-between">
+      <div>
+        <h3 class="text-sm text-gray-700 font-semibold">
+          <a href="/product">
+            <span aria-hidden="true" class="absolute inset-0"></span>
+            KANSAI FTALIT DUO
+          </a>
+        </h3>
+        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+        <p class="mt-3 text-sm font-medium text-gray-900">`(*>﹏<*)′</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ITEM 2 -->
+  <div class="group relative">
+    <img src="/img/KANSAI GLIMMER 2,5 LITER.png" alt="KANSAI SPLESH GLIMMER"
+         class="w-full max-w-full h-[260px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+    <div class="mt-4 flex justify-between">
+      <div>
+        <h3 class="text-sm text-gray-700 font-semibold">
+          <a href="#">
+            <span aria-hidden="true" class="absolute inset-0"></span>
+            KANSAI SPLESH GLIMMER
+          </a>
+        </h3>
+        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+        <p class="mt-3 text-sm font-medium text-gray-900">^_~</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ITEM 3 -->
+  <div class="group relative">
+    <img src="/img/SPLESH Kaleng Plastik 2,5 L - Copy.png" alt="KANSAI SPLESH"
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+    <div class="mt-4 flex justify-between">
+      <div>
+        <h3 class="text-sm text-gray-700 font-semibold">
+          <a href="#">
+            <span aria-hidden="true" class="absolute inset-0"></span>
+            KANSAI SPLESH
+          </a>
+        </h3>
+        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+        <p class="mt-3 text-sm font-medium text-gray-900">`(*>﹏<*)′</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ITEM 4 -->
+  <div class="group relative">
+    <img src="/img/FA_Kansai-Diamond-Shield_2,5L_Display.png" alt="KANSAI DIAMOND SHIELD"
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+    <div class="mt-4 flex justify-between">
+      <div>
+        <h3 class="text-sm text-gray-700 font-semibold">
+          <a href="#">
+            <span aria-hidden="true" class="absolute inset-0"></span>
+            KANSAI DIAMOND SHIELD 12-IN-1
+          </a>
+        </h3>
+        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+        <p class="mt-3 text-sm font-medium text-gray-900">^_~</p>
+      </div>
+
+      
 </body>
 </html>
 

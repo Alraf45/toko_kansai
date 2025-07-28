@@ -13,6 +13,7 @@ Route::post('/register', [AuthController::class, 'register']);
 Route::get('/login', [AuthController::class, 'Login'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
 
+//homepage//
 Route::get('/product', function () {
     return view('product');
 });
@@ -29,9 +30,15 @@ Route::get('/', function () {
 return view('home');
 });
 
+//kategori//
+Route::get('/cat-besi-kayu', function () {
+    return view('cat-besi-kayu');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
 
 
 Route::middleware('auth')->group(function () {
