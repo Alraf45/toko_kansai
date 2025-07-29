@@ -87,7 +87,7 @@
      style="background-image: url('/img/Web-side-banner-.png');">
 </div>
 
-<div class="mb-6"></div>
+<div class="mb-20"></div>
 
 
 <div class="bg-white">
@@ -319,6 +319,8 @@
         <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
         <p class="mt-3 text-sm font-medium text-gray-900">^_~</p>
       </div>
+
+      
 </body>
 </html>
 
