@@ -9,7 +9,7 @@
 <body class="bg-gray-100 text-gray-800">
 
   <!-- Navbar -->
-   <nav class="w-full flex flex-wrap items-center justify-between px-4 py-3 shadow-sm sticky top-0 bg-white z-50">
+  <nav class="w-full flex flex-wrap items-center justify-between px-4 py-3 shadow-sm sticky top-0 bg-white z-50">
     <!-- Logo -->
     <div class="flex items-center space-x-2">
       <img src="img/452_main.jpg" class="h-16">
@@ -39,7 +39,7 @@
           <p>1,024 Active Users</p>
         </div>
         <div class="bg-sky-400 text-white rounded-lg shadow p-6 hover:bg-sky-600">
-          <h5 class="text-xl font-semibold mb-2">Sales</h5>
+          <h5 class="text-xl font-semibold mb-2">Products</h5>
           <p>$12,340 This Month</p>
         </div>
       </div>
