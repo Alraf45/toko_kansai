@@ -12,7 +12,7 @@
   <nav class="w-full flex flex-wrap items-center justify-between px-4 py-3 shadow-sm sticky top-0 bg-white z-50">
     <!-- Logo -->
     <div class="flex items-center space-x-2">
-      <img src="img/452_main.jpg" class="h-16">
+      <img src="public/img/452_main.jpg" class="h-16">
     </div>
     </nav>
 
@@ -22,10 +22,10 @@
       <h3 class="text-lg text-white font-semibold mb-10">Dashboard</h3>
       <ul class="space-y-2">
         <li><a href="/profile" class="block py-1 text-white hover:text-black font-mono mt-8">Users</a></li>
-        <li><a href="/product" class="block py-1 text-white hover:text-black font-mono mt-8">Products</a></li>
-        <li><a href="/" class="block py-1 text-white hover:text-red-500 font-mono mt-12">[<] Logout</a></li>
+        <li><a href="/product" class="block py-1 text-white hover:text-black font-monomt-12">[<] Logout</a></li>
       </ul>
-    </aside>
+    </aside></li>
+        <li><a href="/" class="block py-1 text-white hover:text-red-500 font-mono 
 
     <!-- Main Content -->
     <main class="w-4/5 p-6">
@@ -39,7 +39,7 @@
           <p>1,024 Active Users</p>
         </div>
         <div class="bg-sky-400 text-white rounded-lg shadow p-6 hover:bg-sky-600">
-          <h5 class="text-xl font-semibold mb-2">Products</h5>
+      
           <p>$12,340 This Month</p>
         </div>
       </div>

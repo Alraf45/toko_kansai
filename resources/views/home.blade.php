@@ -61,13 +61,14 @@
       </div>
 
       <!-- Cart -->
-      <button aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-400 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+      <div>
+      <a href="/cart" aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-400 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" 
           viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m12-9l2 9m-6-9v9" />
         </svg>
-      </button>
+      </a>
     </div>
   </nav>
 
@@ -84,7 +85,7 @@
 
 
 <div class="mt-10 max-w-6xl mx-auto h-96 bg-cover bg-center bg-no-repeat shadow-slate-500 overflow-auto"
-     style="background-image: url('/img/Web-side-banner-.png');">
+    style="background-image: url('/img/Web-side-banner-.png');">
 </div>
 
   <div class="font-bold text-center text-4xl mt-10">
@@ -109,7 +110,7 @@
 </section>
   <div class="mb-6"></div>
   
-   
+  
   <div class="bg-white">
     <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900">Best Selling Products</h2>
@@ -308,7 +309,7 @@ active:bg-sky-700 focus:ring-sky-300 animate-bounce">
                             <svg class="w-[1rem] h-[1rem] text-white" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7.04111 7.81204L7.41156 5.46043H5.1296V3.93188C5.1296 3.28886 5.44818 2.66054 6.46692 2.66054H7.51899V0.657999C6.90631 0.560385 6.28723 0.507577 5.66675 0.5C3.78857 0.5 2.56239 1.62804 2.56239 3.66733V5.46043H0.480469V7.81204H2.56239V13.5H5.1296V7.81204H7.04111Z" fill="currentColor"/>
                                 </svg>
-                                 
+                              
                         </a>
                         <a href="javascript:;"  class="relative w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#FF0000]  hover:bg-gray-900 ">
                             <svg class="w-[1.25rem] h-[0.875rem] text-white" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
