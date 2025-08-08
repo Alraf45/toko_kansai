@@ -70,6 +70,7 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
 });
 
 
+<<<<<<< HEAD
 
 
 
@@ -81,6 +82,8 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
 
 
 
+=======
+>>>>>>> c41e6bd26fcfa1d90ce442436eacb1ce174d6569
     Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
