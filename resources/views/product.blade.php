@@ -61,13 +61,13 @@
       </div>
 
       <!-- Cart -->
-      <button aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-400 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+      <a href="/cart" aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-400 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" 
           viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m12-9l2 9m-6-9v9" />
         </svg>
-      </button>
+      </a>
     </div>
   </nav>
 
@@ -118,7 +118,7 @@
   <!-- ITEM 2 -->
   <div class="group relative">
     <img src="/img/KANSAI GLIMMER 2,5 LITER.png" alt="KANSAI SPLESH GLIMMER"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+      class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">

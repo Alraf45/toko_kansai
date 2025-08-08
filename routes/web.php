@@ -65,8 +65,10 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
         // Ini akan mencari file di resources/views/admin/products.blade.php
         return view('admin/products');
     })->name('admin/dashboard/products');
-
+    
+    
 });
+
 
 
 

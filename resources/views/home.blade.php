@@ -62,7 +62,7 @@
 
       <!-- Cart -->
       <div>
-      <a href="/cart" aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-400 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+      <a href="/cart" aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-400">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" 
           viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round"
