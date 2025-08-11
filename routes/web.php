@@ -37,7 +37,32 @@ return view('home');
 });
 
 //kategori//
+Route::get('/category', function () {
+    return view('category');
+});
+
+route::get('/cat_kayu_besi', function () {
+    return view('category/cat_kayu_besi');
+});
+
+route::get('/cat_eksterior', function () {
+    return view('category/cat_eksterior');
+});
+
+route::get('/cat_premium', function () {
+    return view('category/cat_premium');
+});
+
+route::get('/cat_interior', function () {
+    return view('category/cat_interior');
+});
+
 //produk//
+
+//cart//
+Route::get('/cart', function () {
+    return view('cart');
+});
 
 //admin dashboard//
 
