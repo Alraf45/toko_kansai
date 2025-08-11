@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+@include('home.navbar')
 <!-- navbar.html -->
 <nav class="w-full flex flex-wrap items-center justify-between px-4 py-3 shadow-sm sticky top-0 bg-white z-50">
   <!-- Logo -->

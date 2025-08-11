@@ -11,6 +11,7 @@ use illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 
+use function Pest\Laravel\post;
 
 Route::get('/register', [AuthController::class, 'showRegister'])->name('register');
 Route::post('/register', [AuthController::class, 'register']);
@@ -30,7 +31,7 @@ Route::get('/colors', function () {
 
 Route::get('/cart', function () {
     return view('cart');
-});
+})->name('cart');
 
 Route::get('/', function () {
 return view('home');
@@ -64,13 +65,13 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
     Route::get('/products', function () {
         // Ini akan mencari file di resources/views/admin/products.blade.php
         return view('admin/products');
+
     })->name('admin/dashboard/products');
     
     
 });
 
 
-<<<<<<< HEAD
 
 
 
@@ -78,12 +79,6 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
 
 
 
-
-
-
-
-=======
->>>>>>> c41e6bd26fcfa1d90ce442436eacb1ce174d6569
     Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

@@ -94,7 +94,7 @@
 
 <section class="py-20">
   <div class="flex flex-wrap justify-center gap-4">
-    <a href="/Cat-Besi-Kayu" class="px-5 py-2 block mx-10 border border-black text-black rounded-full hover:bg-gray-200 transition">
+    <a href="#" class="px-5 py-2 block mx-10 border border-black text-black rounded-full hover:bg-gray-200 transition">
       Cat Besi & Kayu
     </a>
     <a href="#" class="px-5 py-2 block mx-10 border border-black text-black rounded-full hover:bg-gray-200 transition">
