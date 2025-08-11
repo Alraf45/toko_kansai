@@ -61,6 +61,8 @@
       </div>
 
       <!-- Cart -->
+       <div>
+        <a href="/cart">
       <button aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-400 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" 
           viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -68,6 +70,7 @@
             d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m12-9l2 9m-6-9v9" />
         </svg>
       </button>
+      </a>
     </div>
   </nav>
 
@@ -82,25 +85,11 @@
   </script>
 </body>
 
-
-<div class="mt-10 max-w-6xl mx-auto h-96 bg-cover bg-center bg-no-repeat shadow-slate-500 overflow-auto"
-     style="background-image: url('/img/Web-side-banner-.png');">
-</div>
-
-<div class="mb-6"></div>
-
-
-<div class="bg-white">
-    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-      <h2 class="text-3xl font-bold tracking-tight text-gray-900">Products Details</h2>
-      <div class="mb-16"></div>
-
-
 <div class="mt-3 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-2 gap-y-12">
   <!-- ITEM 1 -->
   <div class="group relative">
     <img src="/img/KANSAI FTALIT DUO.png" alt="KANSAI FTALIT DUO"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -118,7 +107,7 @@
   <!-- ITEM 2 -->
   <div class="group relative">
     <img src="/img/KANSAI GLIMMER 2,5 LITER.png" alt="KANSAI SPLESH GLIMMER"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -136,7 +125,7 @@
   <!-- ITEM 3 -->
   <div class="group relative">
     <img src="/img/SPLESH Kaleng Plastik 2,5 L - Copy.png" alt="KANSAI SPLESH"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -154,7 +143,7 @@
   <!-- ITEM 4 -->
   <div class="group relative">
     <img src="/img/FA_Kansai-Diamond-Shield_2,5L_Display.png" alt="KANSAI DIAMOND SHIELD"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -168,7 +157,6 @@
       </div>
     </div>
   </div>
-
 </div>
 
 <div class="mb-20"></div>
@@ -177,7 +165,7 @@
   <!-- ITEM 1 -->
   <div class="group relative">
     <img src="/img/Kansai Property Eksterior 5 Kg (1).png" alt="KANSAI FTALIT DUO"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -195,7 +183,7 @@
   <!-- ITEM 2 -->
   <div class="group relative">
     <img src="/img/RAIN BLOCK Kaleng Plastik 4kg.png" alt="KANSAI SPLESH GLIMMER"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -213,7 +201,7 @@
   <!-- ITEM 3 -->
   <div class="group relative">
     <img src="/img/Kansai PEARL Sheen 2,5 L.png" alt="KANSAI SPLESH"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -231,7 +219,7 @@
   <!-- ITEM 4 -->
   <div class="group relative">
     <img src="/img/Kansai FTALIT 1 Kg.png" alt="KANSAI DIAMOND SHIELD"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -253,7 +241,7 @@
   <!-- ITEM 1 -->
   <div class="group relative">
     <img src="/img/Kansai Tropic 5 Kg.png" alt="KANSAI FTALIT DUO"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -271,7 +259,7 @@
   <!-- ITEM 2 -->
   <div class="group relative">
     <img src="/img/KANSAI GLIMMER 2,5 LITER.png" alt="KANSAI SPLESH GLIMMER"
-         class="w-full max-w-full h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -289,7 +277,7 @@
   <!-- ITEM 3 -->
   <div class="group relative">
     <img src="/img/SPLESH Kaleng Plastik 2,5 L - Copy.png" alt="KANSAI SPLESH"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -307,7 +295,7 @@
   <!-- ITEM 4 -->
   <div class="group relative">
     <img src="/img/FA_Kansai-Diamond-Shield_2,5L_Display.png" alt="KANSAI DIAMOND SHIELD"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">

@@ -59,9 +59,17 @@ route::get('/cat_interior', function () {
 
 //produk//
 
-//cart//
-Route::get('/cart', function () {
-    return view('cart');
+//cart_checkout//
+route::get('/cart_checkout', function () {
+    return view('cart_checkout');
+});
+
+route::get('/cart', function () {
+    return view('cart_checkout/cart');
+});
+
+route::get('/checkout', function () {
+    return view('cart_checkout/checkout');
 });
 
 //admin dashboard//

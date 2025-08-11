@@ -62,12 +62,14 @@
 
       <!-- Cart -->
       <div>
-      <a href="/cart" aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-400 p-2 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500">
+        <a href="/cart">
+      <button aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-400 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" 
           viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m12-9l2 9m-6-9v9" />
         </svg>
+      </button>
       </a>
     </div>
   </nav>
@@ -120,7 +122,7 @@
   <!-- ITEM 1 -->
   <div class="group relative">
     <img src="/img/KANSAI FTALIT DUO.png" alt="KANSAI FTALIT DUO"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -138,7 +140,7 @@
   <!-- ITEM 2 -->
   <div class="group relative">
     <img src="/img/KANSAI GLIMMER 2,5 LITER.png" alt="KANSAI SPLESH GLIMMER"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -156,7 +158,7 @@
   <!-- ITEM 3 -->
   <div class="group relative">
     <img src="/img/SPLESH Kaleng Plastik 2,5 L - Copy.png" alt="KANSAI SPLESH"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -174,7 +176,7 @@
   <!-- ITEM 4 -->
   <div class="group relative">
     <img src="/img/FA_Kansai-Diamond-Shield_2,5L_Display.png" alt="KANSAI DIAMOND SHIELD"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto" />
+         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700 font-semibold">
@@ -202,67 +204,6 @@ active:bg-sky-700 focus:ring-sky-300 animate-bounce">
 </button>
 
 <div class="mb-20"></div>
-
-<footer class="bg-white border-t font-raleway text-[#1C244B]">
-  <div class="max-w-[1200px] mx-auto px-4 py-8">
-    <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
-      
-      <!-- Logo -->
-      <div class="col-start-1 col-end-3 md:col-end-auto">
-        <img src="/images/logo.png" alt="Kansai Paint Logo" class="h-[50px]">
-      </div>
-
-      <!-- Produk -->
-      <div>
-        <h3 class="font-bold mb-4">Produk</h3>
-        <ul class="space-y-2 text-sm font-semibold">
-          <li><a href="https://kansaipaint.id/product?wpf_filter_cat_0=18&amp;wpf_fbv=1">Cat Premium</a></li>
-          <li><a href="https://kansaipaint.id/product?wpf_filter_cat_0=22&amp;wpf_fbv=1">Cat Interior</a></li>
-          <li><a href="https://kansaipaint.id/product?wpf_filter_cat_0=21&amp;wpf_fbv=1">Cat Eksterior</a></li>
-          <li><a href="https://kansaipaint.id/product?wpf_filter_cat_0=23&amp;wpf_fbv=1">Cat Kayu &amp; Besi</a></li>
-          <li><a href="https://kansaipaint.id/tds">Lihat TDS</a></li>
-        </ul>
-      </div>
-
-      <!-- Tentang Kami -->
-      <div>
-        <h3 class="font-bold mb-4">Tentang Kami</h3>
-        <ul class="space-y-2 text-sm font-semibold">
-          <li><a href="https://kansaipaint.id/artikel">Artikel</a></li>
-          <li><a href="https://kansaipaint.id">Hubungi Kami</a></li>
-        </ul>
-      </div>
-
-      <!-- Simulasi -->
-      <div>
-        <h3 class="font-bold mb-4">Simulasi</h3>
-        <ul class="space-y-2 text-sm font-semibold">
-          <li><a href="https://color.kansaipaint.id/paint-calculator">Kalkulator Cat</a></li>
-          <li><a href="https://color.kansaipaint.id">Warna</a></li>
-        </ul>
-      </div>
-
-      <!-- Layanan -->
-      <div>
-        <h3 class="font-bold mb-4">Layanan</h3>
-        <ul class="space-y-2 text-sm font-semibold">
-          <li><a href="https://kansaipaint.id/b2b">Business to Business</a></li>
-          <li><a href="https://kansaipaint.id/warranty">Garansi 12 Tahun</a></li>
-        </ul>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- Copyright -->
-  <div class="border-t bg-navy text-white">
-    <div class="max-w-6xl mx-auto px-4 py-4 text-sm text-center">
-      ©2025 Kansai Paint. All Rights Reserved.
-    </div>
-  </div>
-</footer>
-
-
 
 </body>
 </html>
