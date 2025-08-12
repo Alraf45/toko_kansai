@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
   <meta charset="UTF-8" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -44,7 +44,6 @@
 
     <!-- Search + Cart -->
     <div class="flex flex-wrap items-center gap-4 mt-3 md:mt-0">
-      
       <!-- Search -->
       <div class="relative w-48 md:w-72">
         <input
@@ -62,18 +61,16 @@
       </div>
 
       <!-- Cart -->
-       <a href="/cart">
+      <div>
+        <a href="/cart">
       <button aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-400 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" 
           viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round"
-            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m12-9l2 9m-6-9v9" /> 
+            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m12-9l2 9m-6-9v9" />
         </svg>
       </button>
       </a>
-        <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
-
     </div>
   </nav>
 
@@ -88,20 +85,57 @@
   </script>
 </body>
 
-
-<div class="mt-10 max-w-6xl mx-auto h-96 bg-cover bg-center bg-no-repeat shadow-slate-500 overflow-auto"
-     style="background-image: url('/img/Web-side-banner-.png');">
+<div class="container mx-auto p4-10">
+    <div class="max-w-md mx-auto bg-white rounded-lg overflow-hidden md:max-w-xl">
+        <div class="md:flex">
+            <div class="w-full px-6 py-8 md:p-8">
+                <h2 class="text-2xl font-bold text-gray-800">Checkout</h2>
+                <p class="mt-4 text-gray-600">Please fill out the form below to complete your purchase.</p>
+                <form class="mt-6">
+                    <div class="mb-6">
+                        <label class="block text-gray-800 font-bold mb-2" for="name">
+                            Name
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="John Doe">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-800 font-bold mb-2" for="email">
+                            Email
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="johndoe@example.com">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-800 font-bold mb-2" for="card_number">
+                            Card Number
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="card_number" type="text" placeholder="**** **** **** 1234">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-800 font-bold mb-2" for="expiration_date">
+                            Expiration Date
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="expiration_date" type="text" placeholder="MM / YY">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-800 font-bold mb-2" for="cvv">
+                            CVV
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="cvv" type="text" placeholder="***">
+                    </div>
+                    <a href="/payment">
+                    <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                        Submit
+                    </button>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="mb-20"></div>
+  <div class="mb-96"></div>
 
-<h1 class="text-3xl font-bold text-center text-navy mb-8">Warna Cat ®</h1>
-<div class="flex justify-center mb-8"><button class="text-[13px] md:text-base px-4 py-2 bg-gray-500 text-white rounded-tl-full rounded-bl-full">Koleksi Warna Favorit</button><button class="text-[13px] md:text-base px-4 py-2 bg-sky-600 text-white rounded-tr-full rounded-br-full">Seluruh Koleksi Warna</button></div>
-<div class="p-4 bg-[#f1f2f6] rounded-md"><div class="grid grid-cols-5 lg:grid-cols-7 gap-4"><div class="bg-white shadow rounded-md border hover:border-navy cursor-pointer "><div class="h-[50px] md:h-[95px] rounded-md md:rounded-t md:rounded-b-none" style="background-color: rgb(181, 172, 150);"></div><div class="p-3 hidden md:block"><p class="text-sm">Neutral</p></div></div><div class="bg-white shadow rounded-md border hover:border-navy cursor-pointer "><div class="h-[50px] md:h-[95px] rounded-md md:rounded-t md:rounded-b-none" style="background-color: rgb(237, 32, 36);"></div><div class="p-3 hidden md:block"><p class="text-sm">Red</p></div></div><div class="bg-white shadow rounded-md border hover:border-navy cursor-pointer "><div class="h-[50px] md:h-[95px] rounded-md md:rounded-t md:rounded-b-none" style="background-color: rgb(250, 164, 26);"></div><div class="p-3 hidden md:block"><p class="text-sm">Orange</p></div></div><div class="bg-white shadow rounded-md border hover:border-navy cursor-pointer "><div class="h-[50px] md:h-[95px] rounded-md md:rounded-t md:rounded-b-none" style="background-color: rgb(246, 235, 20);"></div><div class="p-3 hidden md:block"><p class="text-sm">Yellow</p></div></div><div class="bg-white shadow rounded-md border hover:border-navy cursor-pointer "><div class="h-[50px] md:h-[95px] rounded-md md:rounded-t md:rounded-b-none" style="background-color: rgb(11, 129, 64);"></div><div class="p-3 hidden md:block"><p class="text-sm">Green</p></div></div><div class="bg-white shadow rounded-md border hover:border-navy cursor-pointer "><div class="h-[50px] md:h-[95px] rounded-md md:rounded-t md:rounded-b-none" style="background-color: rgb(57, 83, 164);"></div><div class="p-3 hidden md:block"><p class="text-sm">Blue</p></div></div><div class="bg-white shadow rounded-md border hover:border-navy cursor-pointer "><div class="h-[50px] md:h-[95px] rounded-md md:rounded-t md:rounded-b-none" style="background-color: rgb(124, 39, 125);"></div><div class="p-3 hidden md:block"><p class="text-sm">Purple</p></div></div></div></div>
-
-<div class="mb-96"></div>
-
-<footer class="bg-white border-t font-raleway text-[#1C244B]">
+  <footer class="bg-white border-t font-raleway text-[#1C244B]">
   <div class="max-w-[1200px] mx-auto px-4 py-8">
     <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
       
@@ -127,7 +161,7 @@
         <h3 class="font-bold mb-4">Tentang Kami</h3>
         <ul class="space-y-2 text-sm font-semibold">
           <li><a href="https://kansaipaint.id/artikel">Artikel</a></li>
-          <li><a href="https://kansaipaint.id/hubungi-kami">Hubungi Kami</a></li>
+          <li><a href="https://kansaipaint.id">Hubungi Kami</a></li>
         </ul>
       </div>
 
@@ -159,8 +193,3 @@
     </div>
   </div>
 </footer>
-
-</body>
-</html>
-
- 

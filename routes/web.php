@@ -34,7 +34,7 @@ Route::get('/cart', function () {
 })->name('cart');
 
 Route::get('/', function () {
-return view('home');
+return view('home');  
 });
 
 //kategori//
@@ -42,7 +42,7 @@ Route::get('/category', function () {
     return view('category');
 });
 
-route::get('/cat_kayu_besi', function () {
+Route::get('/cat_kayu_besi', function () {
     return view('category/cat_kayu_besi');
 });
 
@@ -61,22 +61,21 @@ route::get('/cat_interior', function () {
 //produk//
 
 //cart_checkout//
-route::get('/cart_checkout', function () {
-    return view('cart_checkout');
+route::get('/pages', function () {
+    return view('pages');
 });
 
 route::get('/cart', function () {
-    return view('cart_checkout/cart');
+    return view('pages/cart');
 });
 
 route::get('/checkout', function () {
-    return view('cart_checkout/checkout');
+    return view('pages/checkout');
 });
 
-//admin dashboard//
-
-
-// ... kode routing lainnya
+route::get('/payment', function () {
+    return view('pages/payment');
+});
 
 // admin dashboard
 Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () {
@@ -103,15 +102,6 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
     
     
 });
-
-
-
-
-
-
-
-
-
     Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

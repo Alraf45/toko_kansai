@@ -217,12 +217,12 @@
               
               <div class="flex justify-between font-medium">
                 <span>Price:</span>
-                <span x-text="'$' + item.perPieceRate.toFixed(2)"></span>
+                <span x-text="'Rp' + item.perPieceRate.toFixed(2)"></span>
               </div>
               
               <div class="flex justify-between font-bold">
                 <span>Total:</span>
-                <span x-text="'$' + item.totalPrice.toFixed(2)"></span>
+                <span x-text="'Rp' + item.totalPrice.toFixed(2)"></span>
               </div>
               
               <div class="pt-2 border-t mt-2">
@@ -422,7 +422,7 @@
                   <div class="font-medium">Standard Shipping</div>
                   <div class="text-sm text-gray-600">Delivery in 5-7 business days</div>
                 </div>
-                <div class="ml-auto font-medium">$5.00</div>
+                <div class="ml-auto font-medium">Rp5.000</div>
               </label>
               
               <label class="flex items-center p-3 border rounded cursor-pointer hover:bg-gray-50">
@@ -431,7 +431,7 @@
                   <div class="font-medium">Express Shipping</div>
                   <div class="text-sm text-gray-600">Delivery in 1-3 business days</div>
                 </div>
-                <div class="ml-auto font-medium">$15.00</div>
+                <div class="ml-auto font-medium">Rp15.000</div>
               </label>
               
               <label class="flex items-center p-3 border rounded cursor-pointer hover:bg-gray-50">
@@ -440,7 +440,7 @@
                   <div class="font-medium">Overnight Shipping</div>
                   <div class="text-sm text-gray-600">Next day delivery</div>
                 </div>
-                <div class="ml-auto font-medium">$25.00</div>
+                <div class="ml-auto font-medium">Rp25.000</div>
               </label>
             </div>
           </div>
@@ -475,24 +475,24 @@
             <div class="space-y-3 mb-4">
               <div class="flex justify-between">
                 <span class="text-gray-600">Subtotal</span>
-                <span class="font-medium" x-text="'$' + subtotal.toFixed(2)"></span>
+                <span class="font-medium" x-text="'Rp' + subtotal.toFixed(2)"></span>
               </div>
               <div class="flex justify-between">
                 <span class="text-gray-600">Shipping</span>
-                <span class="font-medium" x-text="'$' + shippingCost.toFixed(2)"></span>
+                <span class="font-medium" x-text="'Rp' + shippingCost.toFixed(2)"></span>
               </div>
               <div x-show="discount > 0" class="flex justify-between text-green-600">
                 <span>Discount</span>
-                <span class="font-medium" x-text="'-$' + discount.toFixed(2)"></span>
+                <span class="font-medium" x-text="'-Rp' + discount.toFixed(2)"></span>
               </div>
               <div class="flex justify-between text-gray-600">
                 <span>Tax</span>
-                <span class="font-medium" x-text="'$' + calculateTax().toFixed(2)"></span>
+                <span class="font-medium" x-text="'Rp' + calculateTax().toFixed(2)"></span>
               </div>
               <div class="border-t pt-3 mt-3">
                 <div class="flex justify-between font-bold text-lg">
                   <span>Total</span>
-                  <span x-text="'$' + total.toFixed(2)"></span>
+                  <span x-text="'Rp' + total.toFixed(2)"></span>
                 </div>
               </div>
             </div>
@@ -536,28 +536,28 @@
       return {
         cartItems: [
           {
-            name: "Laptop",
-            model: "XPS 13",
+            name: "Kansai Diamond Shield",
+            model: "Kansai Paint",
             hsCode: "847130",
             quantity: 1,
             weight: 2.5,
-            perPieceRate: 999.99,
-            totalPrice: 999.99,
+            perPieceRate: 100.000,
+            totalPrice: 100.000,
             color: "Silver",
             deliveryMethod: "Air",
             description: "A powerful and lightweight laptop with excellent performance.",
             isEditingDescription: false,
             originalDescription: "",
             showDescription: false,
-            image: "https://via.placeholder.com/150"
+            image: "/img/FA_Kansai-Diamond-Shield_2,5L_Display.png"
           },
           {
-            name: "Smartphone",
-            model: "iPhone 14",
+            name: "Kansai Diamond Shield",
+            model: "Kansai Paint",
             hsCode: "851712",
             quantity: 2,
             weight: 0.5,
-            perPieceRate: 799.99,
+            perPieceRate: 350.000,
             totalPrice: 1599.98,
             color: "Black",
             deliveryMethod: "Ship",
@@ -565,7 +565,7 @@
             isEditingDescription: false,
             originalDescription: "",
             showDescription: false,
-            image: "https://via.placeholder.com/150"
+            image: "/img/FA_Kansai-Diamond-Shield_2,5L_Display.png"
           }
         ],
         shippingMethod: "standard",
@@ -692,6 +692,66 @@
       };
     }
   </script>
-  <div class="mb-20"></div>
+  <div class="mb-96"></div>
+
+  <footer class="bg-white border-t font-raleway text-[#1C244B]">
+  <div class="max-w-[1200px] mx-auto px-4 py-8">
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+      
+      <!-- Logo -->
+      <div class="col-start-1 col-end-3 md:col-end-auto">
+        <img src="/img/452_main.jpg" alt="Kansai Paint Logo" class="h-[68px]">
+      </div>
+
+      <!-- Produk -->
+      <div>
+        <h3 class="font-bold mb-4">Produk</h3>
+        <ul class="space-y-2 text-sm font-semibold">
+          <li><a href="https://kansaipaint.id/product?wpf_filter_cat_0=18&amp;wpf_fbv=1">Cat Premium</a></li>
+          <li><a href="https://kansaipaint.id/product?wpf_filter_cat_0=22&amp;wpf_fbv=1">Cat Interior</a></li>
+          <li><a href="https://kansaipaint.id/product?wpf_filter_cat_0=21&amp;wpf_fbv=1">Cat Eksterior</a></li>
+          <li><a href="https://kansaipaint.id/product?wpf_filter_cat_0=23&amp;wpf_fbv=1">Cat Kayu &amp; Besi</a></li>
+          <li><a href="https://kansaipaint.id/tds">Lihat TDS</a></li>
+        </ul>
+      </div>
+
+      <!-- Tentang Kami -->
+      <div>
+        <h3 class="font-bold mb-4">Tentang Kami</h3>
+        <ul class="space-y-2 text-sm font-semibold">
+          <li><a href="https://kansaipaint.id/artikel">Artikel</a></li>
+          <li><a href="https://kansaipaint.id">Hubungi Kami</a></li>
+        </ul>
+      </div>
+
+      <!-- Simulasi -->
+      <div>
+        <h3 class="font-bold mb-4">Simulasi</h3>
+        <ul class="space-y-2 text-sm font-semibold">
+          <li><a href="https://color.kansaipaint.id/paint-calculator">Kalkulator Cat</a></li>
+          <li><a href="https://color.kansaipaint.id">Warna</a></li>
+        </ul>
+      </div>
+
+      <!-- Layanan -->
+      <div>
+        <h3 class="font-bold mb-4">Layanan</h3>
+        <ul class="space-y-2 text-sm font-semibold">
+          <li><a href="https://kansaipaint.id/b2b">Business to Business</a></li>
+          <li><a href="https://kansaipaint.id/warranty">Garansi 12 Tahun</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="border-t bg-blue-900 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-4 text-sm text-center">
+      ©2025 Kansai Paint. All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>

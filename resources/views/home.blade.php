@@ -61,8 +61,9 @@
       </div>
 
       <!-- Cart -->
-      <div>
-      <a href="/cart" aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-400 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+       <div>
+        <a href="/cart">
+      <button aria-label="Shopping Cart" class="text-gray-500 hover:text-blue-400 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" 
           viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round"
@@ -109,87 +110,67 @@
     </a>
   </div>
 </section>
-  <div class="mb-6"></div>
+  <div class="mb-20"></div>
+  <div class="border-t border-gray-400 w-10/12 mx-auto">
+  <div class="mt-8 font-semibold mx-auto"><h1 class="text-4xl">Best Selling Products</h1></div>
+  </div>
   
-  
-  <div class="bg-white">
-    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-      <h2 class="text-3xl font-bold tracking-tight text-gray-900">Best Selling Products</h2>
-      <div class="mb-16"></div>
-      
-      <div class="mt-3 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-2 gap-y-12">
+  <div class="mb-20"></div>
+
+    <div class="mt-3 mx-w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 
+       gap-x-2 gap-y-12 justify-items-center">
   <!-- ITEM 1 -->
-  <div class="group relative">
+  <div class="group border rounded-md overflow-hidden max-w-[200px] hover:shadow-lg transition-shadow">
     <img src="/img/KANSAI FTALIT DUO.png" alt="KANSAI FTALIT DUO"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
-    <div class="mt-4 flex justify-between">
-      <div>
-        <h3 class="text-sm text-gray-700 font-semibold">
-          <a href="/product">
-            <span aria-hidden="true" class="absolute inset-0"></span>
-            KANSAI FTALIT DUO
-          </a>
-        </h3>
-        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
-        <p class="mt-3 text-sm font-medium text-gray-900">`(*>﹏<*)′</p>
-      </div>
+         class="w-full h-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
+    <div class="p-3 text-center">
+      <h3 class="text-sm text-gray-700 font-semibold">
+        <a href="/product">KANSAI FTALIT DUO</a>
+      </h3>
+      <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+      <p class="mt-1 text-sm font-medium text-gray-900">⭐⭐⭐⭐⭐</p>
     </div>
   </div>
 
-  <!-- ITEM 2 -->
-  <div class="group relative">
+ <!-- ITEM 2 -->
+  <div class="group border rounded-md overflow-hidden max-w-[200px] hover:shadow-lg transition-shadow">
     <img src="/img/KANSAI GLIMMER 2,5 LITER.png" alt="KANSAI SPLESH GLIMMER"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
-    <div class="mt-4 flex justify-between">
-      <div>
-        <h3 class="text-sm text-gray-700 font-semibold">
-          <a href="#">
-            <span aria-hidden="true" class="absolute inset-0"></span>
-            KANSAI SPLESH GLIMMER
-          </a>
-        </h3>
-        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
-        <p class="mt-3 text-sm font-medium text-gray-900">^_~</p>
-      </div>
+         class="w-full h-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
+    <div class="p-3 text-center">
+      <h3 class="text-sm text-gray-700 font-semibold">
+        <a href="#">KANSAI SPLESH GLIMMER</a>
+      </h3>
+      <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+      <p class="mt-1 text-sm font-medium text-gray-900">⭐⭐⭐⭐</p>
     </div>
   </div>
 
   <!-- ITEM 3 -->
-  <div class="group relative">
+  <div class="group border rounded-md overflow-hidden max-w-[200px] hover:shadow-lg transition-shadow">
     <img src="/img/SPLESH Kaleng Plastik 2,5 L - Copy.png" alt="KANSAI SPLESH"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
-    <div class="mt-4 flex justify-between">
-      <div>
-        <h3 class="text-sm text-gray-700 font-semibold">
-          <a href="#">
-            <span aria-hidden="true" class="absolute inset-0"></span>
-            KANSAI SPLESH
-          </a>
-        </h3>
-        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
-        <p class="mt-3 text-sm font-medium text-gray-900">`(*>﹏<*)′</p>
-      </div>
+         class="w-full h-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
+    <div class="p-3 text-center">
+      <h3 class="text-sm text-gray-700 font-semibold">
+        <a href="#">KANSAI SPLESH</a>
+      </h3>
+      <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+      <p class="mt-1 text-sm font-medium text-gray-900">⭐⭐⭐</p>
     </div>
   </div>
 
   <!-- ITEM 4 -->
-  <div class="group relative">
+  <div class="group border rounded-md overflow-hidden max-w-[200px] hover:shadow-lg transition-shadow">
     <img src="/img/FA_Kansai-Diamond-Shield_2,5L_Display.png" alt="KANSAI DIAMOND SHIELD"
-         class="w-full max-w-[200px] h-[200px] object-cover rounded-md bg-gray-200 group-hover:opacity-60 mx-auto p-4" />
-    <div class="mt-4 flex justify-between">
-      <div>
-        <h3 class="text-sm text-gray-700 font-semibold">
-          <a href="#">
-            <span aria-hidden="true" class="absolute inset-0"></span>
-            KANSAI DIAMOND SHIELD 12-IN-1
-          </a>
-        </h3>
-        <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
-        <p class="mt-3 text-sm font-medium text-gray-900">^_~</p>
-      </div>
+         class="w-full h-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
+    <div class="p-3 text-center">
+      <h3 class="text-sm text-gray-700 font-semibold">
+        <a href="#">KANSAI DIAMOND SHIELD 12-IN-1</a>
+      </h3>
+      <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
+      <p class="mt-1 text-sm font-medium text-gray-900">⭐⭐⭐⭐⭐</p>
     </div>
   </div>
-</div>
+  </div>
 
 <div class="mb-20"></div>
 
