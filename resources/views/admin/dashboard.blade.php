@@ -44,12 +44,12 @@
             <span class="ml-1"></span>
         </div>
         <nav class="flex-1">
-            <a href="" class="block py-2 px-4 hover:bg-sky-600">Dashboard</a>
-            <a href="user_management" class="block py-2 px-4 hover:bg-sky-600">User management</a>
-            <a href="product_management" class="block py-2 px-4 hover:bg-sky-600">Product management</a>
-            <a href="documents" class="block py-2 px-4 hover:bg-sky-600">Documents</a>
-            <a href="statistics" class="block py-2 px-4 hover:bg-sky-600">Statistics</a>
-            <a href="settings" class="block py-2 px-4 hover:bg-sky-600">Settings</a>
+            <a href="dashboard" class="block py-2 px-4 hover:bg-sky-600">Dashboard</a>
+            <a href="dashboard" class="block py-2 px-4 hover:bg-sky-600">User management</a>
+            <a href="dashboard" class="block py-2 px-4 hover:bg-sky-600">Product management</a>
+            <a href="dashboard" class="block py-2 px-4 hover:bg-sky-600">Documents</a>
+            <a href="dashboard" class="block py-2 px-4 hover:bg-sky-600">Statistics</a>
+            <a href="dashboard" class="block py-2 px-4 hover:bg-sky-600">Settings</a>
         </nav>
         <div class="p-4 border-t border-sky-400">
             <a href="#" class="flex items-center">
@@ -61,7 +61,7 @@
     <!-- Main Content -->
     <div class="flex-1 flex flex-col">
         
-      
+    
         <!-- Table -->
         <main class="p-6">
             <h1 class="text-lg font-semibold mb-4">Order catalogue</h1>
@@ -112,7 +112,7 @@
             <div>
                 <p>Jl. Gatot Tunggal No.3 RT.006/RW.005</p>
                 <p>Kota Tangerang, Banten 15136</p>
-                <p>Email: kcp@kansaicoatings.co.id</p>
+                <p>Email: kpc@kansaicoatings.co.id</p>
                 <p>Telp: +62215979058</p>
             </div>
             <div>

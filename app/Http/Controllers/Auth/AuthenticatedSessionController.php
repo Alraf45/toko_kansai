@@ -38,7 +38,7 @@ class AuthenticatedSessionController extends Controller
 
         // Regenerate the session to prevent fixation
         $request->session()->regenerate();
-        return redirect()->intended(route('dashboard', absolute: false));
+        return redirect()->intended(route('admin/dashboard', absolute: false));
     }
 
     /**
