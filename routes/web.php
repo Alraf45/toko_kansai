@@ -39,16 +39,48 @@ Route::get('/cart', function () {
 })->name('cart');
 
 Route::get('/', function () {
-return view('home');
+return view('home');  
 });
 
 //kategori//
+Route::get('/category', function () {
+    return view('category');
+});
+
+Route::get('/cat_kayu_besi', function () {
+    return view('category/cat_kayu_besi');
+});
+
+route::get('/cat_eksterior', function () {
+    return view('category/cat_eksterior');
+});
+
+route::get('/cat_premium', function () {
+    return view('category/cat_premium');
+});
+
+route::get('/cat_interior', function () {
+    return view('category/cat_interior');
+});
+
 //produk//
 
-//admin dashboard//
+//cart_checkout//
+route::get('/pages', function () {
+    return view('pages');
+});
 
+route::get('/cart', function () {
+    return view('pages/cart');
+});
 
-// ... kode routing lainnya
+route::get('/checkout', function () {
+    return view('pages/checkout');
+});
+
+route::get('/payment', function () {
+    return view('pages/payment');
+});
 
 // admin dashboard
 Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () {
@@ -72,10 +104,13 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
     
 
 });
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 524a590d9ef8264937c6972b6f19e4575f03d6a4
     Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

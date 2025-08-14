@@ -38,22 +38,31 @@
 
 <div class="flex">
     <!-- Sidebar -->
-    <aside class="w-64 bg-sky-500 text-white min-h-screen flex flex-col">
+    <aside class="w-64 bg-sky-400 text-white min-h-screen flex flex-col">
         <div class="p-4 font-bold text-lg flex items-center">
             <span></span>
             <span class="ml-1"></span>
         </div>
         <nav class="flex-1">
+<<<<<<< HEAD
             <a href="dashboard" class="block py-2 px-4 hover:bg-sky-600">Dashboard</a>
             <a href="dashboard" class="block py-2 px-4 hover:bg-sky-600">User management</a>
             <a href="dashboard" class="block py-2 px-4 hover:bg-sky-600">Product management</a>
             <a href="dashboard" class="block py-2 px-4 hover:bg-sky-600">Documents</a>
             <a href="dashboard" class="block py-2 px-4 hover:bg-sky-600">Statistics</a>
             <a href="dashboard" class="block py-2 px-4 hover:bg-sky-600">Settings</a>
+=======
+            <a href="" class="block py-6 px-14 hover:bg-sky-600 rounded-full"><h1 class="text-lg font-semibold">Dashboard</h1></a>
+            <a href="/user_management" class="block py-8 px-8 hover:bg-sky-600 rounded-full">👤 User</a>
+            <a href="/product_management" class="block py-8 px-8 hover:bg-sky-600 rounded-full">📦 Product</a>
+            <a href="/documents" class="block py-8 px-8 hover:bg-sky-600 rounded-full">📄 Documents</a>
+            <a href="/statistics" class="block py-8 px-8 hover:bg-sky-600 rounded-full">📊 Statistics</a>
+            <a href="/settings" class="block py-10 px-8  hover:bg-sky-600 rounded-full">⚙️ Settings</a>
+>>>>>>> 524a590d9ef8264937c6972b6f19e4575f03d6a4
         </nav>
-        <div class="p-4 border-t border-sky-400">
+        <div class="p-8 border-t border-sky-400 mb-4">
             <a href="#" class="flex items-center">
-                <span class="mr-2">⇦</span> Logout
+                <span class="mr-2">▶️</span> Logout
             </a>
         </div>
     </aside>
@@ -106,7 +115,17 @@
         </main>
 
         <div class="mb-64"></div>
+      
+<footer class="bg-white border-t font-raleway text-[#1C244B]">
+  <div class="max-w-[1200px] mx-auto px-4 py-8">
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+      
+      <!-- Logo -->
+      <div class="col-start-1 col-end-3 md:col-end-auto">
+        <img src="/img/452_main.jpg" alt="Kansai Paint Logo" class="h-[68px]">
+      </div>
 
+<<<<<<< HEAD
         <!-- Footer -->
         <footer class="bg-sky-500 text-white p-4 flex justify-between items-center">
             <div>
@@ -121,6 +140,58 @@
                 <p><a href="#" class="hover:underline">FAQ</a></p>
             </div>
         </footer>
+=======
+      <!-- Produk -->
+      <div>
+        <h3 class="font-bold mb-4">Produk</h3>
+        <ul class="space-y-2 text-sm font-semibold">
+          <li><a href="https://kansaipaint.id/product?wpf_filter_cat_0=18&amp;wpf_fbv=1">Cat Premium</a></li>
+          <li><a href="https://kansaipaint.id/product?wpf_filter_cat_0=22&amp;wpf_fbv=1">Cat Interior</a></li>
+          <li><a href="https://kansaipaint.id/product?wpf_filter_cat_0=21&amp;wpf_fbv=1">Cat Eksterior</a></li>
+          <li><a href="https://kansaipaint.id/product?wpf_filter_cat_0=23&amp;wpf_fbv=1">Cat Kayu &amp; Besi</a></li>
+          <li><a href="https://kansaipaint.id/tds">Lihat TDS</a></li>
+        </ul>
+      </div>
+
+      <!-- Tentang Kami -->
+      <div>
+        <h3 class="font-bold mb-4">Tentang Kami</h3>
+        <ul class="space-y-2 text-sm font-semibold">
+          <li><a href="https://kansaipaint.id/artikel">Artikel</a></li>
+          <li><a href="https://kansaipaint.id">Hubungi Kami</a></li>
+        </ul>
+      </div>
+
+      <!-- Simulasi -->
+      <div>
+        <h3 class="font-bold mb-4">Simulasi</h3>
+        <ul class="space-y-2 text-sm font-semibold">
+          <li><a href="https://color.kansaipaint.id/paint-calculator">Kalkulator Cat</a></li>
+          <li><a href="https://color.kansaipaint.id">Warna</a></li>
+        </ul>
+      </div>
+
+      <!-- Layanan -->
+      <div>
+        <h3 class="font-bold mb-4">Layanan</h3>
+        <ul class="space-y-2 text-sm font-semibold">
+          <li><a href="https://kansaipaint.id/b2b">Business to Business</a></li>
+          <li><a href="https://kansaipaint.id/warranty">Garansi 12 Tahun</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="border-t bg-sky-400 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-4 text-sm text-center">
+      ©2025 Kansai Paint. All Rights Reserved.
+    </div>
+  </div>
+</footer>
+      
+>>>>>>> 524a590d9ef8264937c6972b6f19e4575f03d6a4
     </div>
 </div>
 
