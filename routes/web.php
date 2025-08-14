@@ -21,6 +21,7 @@ Route::get('/login', [AuthController::class, 'Login'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
 
 //homepage//
+
 Route::get('/product', function () {
     return view('product');
 });
