@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -23,22 +24,17 @@ class AuthenticatedSessionController extends Controller
      */
     public function store(Request $request): RedirectResponse
     {
-        // Use LoginRequest to validate and authenticate
-        // Validate and authenticate using the request itself
-        $request->validate([
-            'email' => 'required|email',
-            'password' => 'required',
-        ]);
+    
+    $request->authenticate();
+    $request->session()->regenerate();
 
-        if (!Auth::attempt($request->only('email', 'password'), $request->boolean('remember'))) {
-            return back()->withErrors([
-                'email' => 'The provided credentials do not match our records.',
-            ]);
-        }
+    // Cek role user
+    if (auth()->user()->role === 'admin') {
+        return redirect()->route('admin/dashboard');
+    }
 
-        // Regenerate the session to prevent fixation
-        $request->session()->regenerate();
-        return redirect()->intended(route('dashboard', absolute: false));
+    // Kalau bukan admin
+    return redirect()->route('/');
     }
 
     /**
