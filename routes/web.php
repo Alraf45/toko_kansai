@@ -11,7 +11,7 @@ use illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use function Pest\Laravel\post;
-
+use illuminate\Http\Middleware\AdminMiddleware;
 // CRUD
 Route::resource('product_crud', ProductController::class);
 
@@ -20,6 +20,10 @@ Route::get('/register', [AuthController::class, 'showRegister'])->name('register
 Route::post('/register', [AuthController::class, 'register']);
 Route::get('/login', [AuthController::class, 'Login'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
+
+
+
+
 
 //homepage//
 Route::get('/product', function () {
