@@ -22,8 +22,8 @@
   <!-- Navbar -->
   <nav class="w-full flex flex-wrap items-center justify-between px-4 py-3 shadow-sm sticky top-0 bg-white z-50">
     <!-- Logo -->
-    <div class="flex items-center space-x-2">
-      <img src="img/452_main.jpg" class="h-16">
+    <div class="flex items-center space-x-2 px-8">
+      <img src="img/logo kansai.jpg" class="h-16">
     </div>
 
     <!-- Menu -->

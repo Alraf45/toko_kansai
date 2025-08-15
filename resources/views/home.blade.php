@@ -36,20 +36,22 @@
 
   <!-- ITEM 1 -->
   <div class="group border rounded-md overflow-hidden max-w-[200px] hover:shadow-lg transition-shadow">
+    <a href="/product_detail">
     <img src="/img/KANSAI FTALIT DUO.png" alt="KANSAI FTALIT DUO"
          class="w-full h-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
     <div class="p-3 text-center">
       <h3 class="text-sm text-gray-700 font-semibold">
-        <a href="/product">KANSAI FTALIT DUO</a>
+        KANSAI FTALIT DUO
       </h3>
       <p class="mt-3 text-sm text-red-500 font-semibold">RP.100,000</p>
       <p class="mt-1 text-sm font-medium text-gray-900">⭐⭐⭐⭐⭐</p>
+      </a>
     </div>
   </div>
 
  <!-- ITEM 2 -->
   <div class="group border rounded-md overflow-hidden max-w-[200px] hover:shadow-lg transition-shadow">
-    <img src="/img/KANSAI GLIMMER 2,5 LITER.png" alt="KANSAI SPLESH GLIMMER"
+    <img src="/img/KANSAI GLIMMER.png" alt="KANSAI SPLESH GLIMMER"
          class="w-full h-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
     <div class="p-3 text-center">
       <h3 class="text-sm text-gray-700 font-semibold">
@@ -75,7 +77,7 @@
 
   <!-- ITEM 4 -->
   <div class="group border rounded-md overflow-hidden max-w-[200px] hover:shadow-lg transition-shadow">
-    <img src="/img/FA_Kansai-Diamond-Shield_2,5L_Display.png" alt="KANSAI DIAMOND SHIELD"
+    <img src="/img/Kansai-Diamond-Shield.png" alt="KANSAI DIAMOND SHIELD"
          class="w-full h-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
     <div class="p-3 text-center">
       <h3 class="text-sm text-gray-700 font-semibold">
@@ -87,7 +89,7 @@
   </div>
   </div>
 
-<div class="mb-20"></div>
+<div class="mb-44"></div>
 
 <button class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-serif block mx-auto hover:bg-sky-600
 active:bg-sky-700 focus:ring-sky-300 animate-bounce">
@@ -97,6 +99,10 @@ active:bg-sky-700 focus:ring-sky-300 animate-bounce">
     View All Products
   </a>
 </button>
+
+<div class="mb-28"></div> 
+
+  <div class="border-t border-gray-400 w-10/12 mx-auto"></div>
 
 <div class="mb-96"></div>
 

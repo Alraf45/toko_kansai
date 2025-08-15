@@ -40,7 +40,7 @@
 
         <div class="p-6 mb-8 rounded-lg bg-blue-50">
             <p class="text-lg font-medium text-blue-700">
-                Your tool <span class="font-bold">"http://example.com"</span> will be listed shortly.
+                Your tool <span class="font-bold">"https://kansaipaint.id"</span> will be listed shortly.
             </p>
         </div>
 

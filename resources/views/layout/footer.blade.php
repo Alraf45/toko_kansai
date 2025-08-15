@@ -5,7 +5,7 @@
       
       <!-- Logo -->
       <div class="col-start-1 col-end-3 md:col-end-auto">
-        <img src="/img/452_main.jpg" alt="Kansai Paint Logo" class="h-[68px]">
+        <img src="/img/logo kansai.jpg" alt="Kansai Paint Logo" class="h-[68px]">
       </div>
 
       <!-- Produk -->
@@ -51,7 +51,7 @@
   </div>
 
   <!-- Copyright -->
-  <div class="border-t bg-blue-900 text-white">
+  <div class="border-t bg-sky-500 text-white">
     <div class="max-w-6xl mx-auto px-4 py-4 text-sm text-center">
       ©2025 Kansai Paint. All Rights Reserved.
     </div>

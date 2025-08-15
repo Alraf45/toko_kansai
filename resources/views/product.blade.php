@@ -20,7 +20,7 @@
 
  <!-- ITEM 2 -->
   <div class="group border rounded-md overflow-hidden max-w-[200px] mx-auto hover:shadow-lg transition-shadow">
-    <img src="/img/KANSAI GLIMMER 2,5 LITER.png" alt="KANSAI SPLESH GLIMMER"
+    <img src="/img/KANSAI GLIMMER.png" alt="KANSAI SPLESH GLIMMER"
          class="w-full h-[200px] max-w-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
     <div class="p-3 text-center">
       <h3 class="text-sm text-gray-700 font-semibold">
@@ -46,7 +46,7 @@
 
   <!-- ITEM 4 -->
   <div class="group border rounded-md overflow-hidden max-w-[200px] mx-auto hover:shadow-lg transition-shadow">
-    <img src="/img/FA_Kansai-Diamond-Shield_2,5L_Display.png" alt="KANSAI DIAMOND SHIELD"
+    <img src="/img/Kansai-Diamond-Shield.png" alt="KANSAI DIAMOND SHIELD"
          class="w-full h-[200px] max-w-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
     <div class="p-3 text-center">
       <h3 class="text-sm text-gray-700 font-semibold">
@@ -76,7 +76,7 @@
 
  <!-- ITEM 2 -->
   <div class="group border rounded-md overflow-hidden max-w-[200px] mx-auto hover:shadow-lg transition-shadow">
-    <img src="/img/KANSAI GLIMMER 2,5 LITER.png" alt="KANSAI SPLESH GLIMMER"
+    <img src="/img/KANSAI GLIMMER.png" alt="KANSAI SPLESH GLIMMER"
          class="w-full h-[200px] max-w-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
     <div class="p-3 text-center">
       <h3 class="text-sm text-gray-700 font-semibold">
@@ -102,7 +102,7 @@
 
   <!-- ITEM 4 -->
   <div class="group border rounded-md overflow-hidden max-w-[200px] mx-auto hover:shadow-lg transition-shadow">
-    <img src="/img/FA_Kansai-Diamond-Shield_2,5L_Display.png" alt="KANSAI DIAMOND SHIELD"
+    <img src="/img/Kansai-Diamond-Shield.png" alt="KANSAI DIAMOND SHIELD"
          class="w-full h-[200px] max-w-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
     <div class="p-3 text-center">
       <h3 class="text-sm text-gray-700 font-semibold">
@@ -132,7 +132,7 @@
 
  <!-- ITEM 2 -->
   <div class="group border rounded-md overflow-hidden max-w-[200px] mx-auto hover:shadow-lg transition-shadow">
-    <img src="/img/KANSAI GLIMMER 2,5 LITER.png" alt="KANSAI SPLESH GLIMMER"
+    <img src="/img/KANSAI GLIMMER.png" alt="KANSAI SPLESH GLIMMER"
          class="w-full h-[200px] max-w-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
     <div class="p-3 text-center">
       <h3 class="text-sm text-gray-700 font-semibold">
@@ -158,7 +158,7 @@
 
   <!-- ITEM 4 -->
   <div class="group border rounded-md overflow-hidden max-w-[200px] mx-auto hover:shadow-lg transition-shadow">
-    <img src="/img/FA_Kansai-Diamond-Shield_2,5L_Display.png" alt="KANSAI DIAMOND SHIELD"
+    <img src="/img/Kansai-Diamond-Shield.png" alt="KANSAI DIAMOND SHIELD"
          class="w-full h-[200px] max-w-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
     <div class="p-3 text-center">
       <h3 class="text-sm text-gray-700 font-semibold">
@@ -188,7 +188,7 @@
 
  <!-- ITEM 2 -->
   <div class="group border rounded-md overflow-hidden max-w-[200px] hover:shadow-lg transition-shadow">
-    <img src="/img/KANSAI GLIMMER 2,5 LITER.png" alt="KANSAI SPLESH GLIMMER"
+    <img src="/img/KANSAI GLIMMER.png" alt="KANSAI SPLESH GLIMMER"
          class="w-full h-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
     <div class="p-3 text-center">
       <h3 class="text-sm text-gray-700 font-semibold">
@@ -214,7 +214,7 @@
 
   <!-- ITEM 4 -->
   <div class="group border rounded-md overflow-hidden max-w-[200px] hover:shadow-lg transition-shadow">
-    <img src="/img/FA_Kansai-Diamond-Shield_2,5L_Display.png" alt="KANSAI DIAMOND SHIELD"
+    <img src="/img/Kansai-Diamond-Shield.png" alt="KANSAI DIAMOND SHIELD"
          class="w-full h-[200px] object-cover bg-gray-200 group-hover:opacity-60 p-4" />
     <div class="p-3 text-center">
       <h3 class="text-sm text-gray-700 font-semibold">
