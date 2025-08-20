@@ -50,7 +50,7 @@
                     <th scope="col" class="px-6 py-3">
                         Color
                     </th>
-                    <th scope="col" class="px-6 py-3">
+                    <th scope="col" class="px-6 py-3    ">
                         Stock
                     </th>
                     <th scope="col" class="px-6 py-3">

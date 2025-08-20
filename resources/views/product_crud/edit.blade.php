@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>EDIT Product - Tutorial CRUD Laravel 12 @ qadrlabs.com</title>
+    <title>EDIT Product</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 
@@ -24,7 +24,7 @@
         </div>
     </div>
     <div class="bg-white p-5 rounded shadow-sm">
-        <form action="{{ route('product_crud.update', $product) }}" method="POST">
+        <form action="{{ route('product.update', ['product' => $product]) }}" method="POST">
             @csrf
             @method('PUT')
 

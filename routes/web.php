@@ -1,4 +1,6 @@
 <?php
+
+use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use Resource\views\product_crud;
 use App\Http\Controllers\ProductController;
 use Resources\views\Admin\Dashboard;
@@ -7,19 +9,43 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\UserController;
+use Illuminate\Auth\Middleware\Authenticate;
 use illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use function Pest\Laravel\post;
 use illuminate\Http\Middleware\AdminMiddleware;
+
 // CRUD
 Route::resource('product_crud', ProductController::class);
+Route::get('product_crud/{id}/edit', [ProductController::class, 'edit'])->name('product_crud.edit');
+Route::post('product_crud/{id}/edit', [ProductController::class, 'edit'])->name('product_crud.edit');
+Route::get('product_crud', [ProductController::class, 'index'])->name('product_crud.index');
+Route::post('product_crud', [ProductController::class, 'store'])->name('product_crud.store');
+Route::put('product_crud/{id}', [ProductController::class, 'update'])->name('product_crud.update');
+Route::delete('product_crud/{id}', [ProductController::class, 'destroy'])->name('product_crud.destroy');
+
 
 // LOGIN AND REGISTER
-Route::get('/register', [AuthController::class, 'showRegister'])->name('register');
-Route::post('/register', [AuthController::class, 'register']);
-Route::get('/login', [AuthController::class, 'Login'])->name('login');
-Route::post('/login', [AuthController::class, 'login']);
+
+Route::get('/register', [AuthenticatedSessionController::class, 'showRegister'])->name('register');
+Route::post('/register', [AuthenticatedSessionController::class, 'register']);
+Route::get('/login', [AuthenticatedSessionController::class, 'showLogin'])->name('login');
+Route::post('/login', [AuthenticatedSessionController::class, 'login']);
+
+// Tampilkan form login
+Route::get('/login', [AuthenticatedSessionController::class, 'create'])->name('login');
+
+// Proses login
+Route::post('/login', [AuthenticatedSessionController::class, 'store'])->name('login.store');
+
+// Proses logout
+Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])->name('logout');
+
+// Dashboard (hanya bisa diakses user login)
+Route::get('/', function () {
+    return 'Halo, ini dashboard!';
+})->middleware('auth');
 
 
 
@@ -90,9 +116,6 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
         return view('admin/dashboard'); 
     })->name('admin/dashboard');
 
-    // --- Rute untuk Halaman Users ---
-    //URL: http://127.0.0.1:8000/dashboard/users
-    // Nama rute: admin/users
 
     // Rute untuk Halaman Products
     Route::get('/product_management', function () {
@@ -104,13 +127,10 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
     
 
 });
-<<<<<<< HEAD
 
 
 
 
-=======
->>>>>>> 524a590d9ef8264937c6972b6f19e4575f03d6a4
     Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

@@ -3,46 +3,45 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Models\User;
-use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\View\View;
+use App\Providers\RouteServiceProvider;
 
 class AuthenticatedSessionController extends Controller
 {
     /**
-     * Display the login view.
+     * Tampilkan halaman login.
      */
-    public function create(): View
+    public function create()
     {
         return view('auth.login');
     }
 
-    /**
-     * Handle an incoming authentication request.
-     */
-    public function store(Request $request): RedirectResponse
+    public function store(Request $request)
     {
-    
-    $request->authenticate();
-    $request->session()->regenerate();
+        // Validasi input
+        $request->validate([
+            'email' => ['required', 'email'],
+            'password' => ['required'],
+        ]);
 
-    // Cek role user
-    if (auth()->user()->role === 'admin') {
-        return redirect()->route('admin/dashboard');
+        // Coba login
+        if (!Auth::attempt($request->only('email', 'password'), $request->filled('remember'))) {
+            return back()->withErrors([
+                'email' => 'Email atau password salah.',
+            ])->onlyInput('email');
+        }
+
+        // Regenerasi session
+        $request->session()->regenerate();
+
+        // Redirect ke dashboard
+        return redirect()->intended('/');
     }
 
-    // Kalau bukan admin
-    return redirect()->route('/');
-    }
-
-    /**
-     * Destroy an authenticated session.
-     */
-    public function destroy(Request $request): RedirectResponse
+    public function destroy(Request $request)
     {
-        Auth::guard('web')->logout();
+        Auth::guard('/')->logout();
 
         $request->session()->invalidate();
 
