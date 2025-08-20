@@ -1,20 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100">
-<!-- Navbar -->
-<nav class="w-full flex flex-wrap items-center justify-between px-4 py-3 shadow-sm sticky top-0 bg-white z-50">
-    <!-- Logo -->
-    <div class="flex items-center space-x-2">
-        <img src="img/452_main.jpg" class="h-16" alt="Logo">
-      
-    </div>
+@include('layout.header')
 
+<<<<<<< HEAD
     <!-- Search + Add Button -->
     <div class="flex items-center space-x-3">
         <!-- Search -->
@@ -35,6 +21,9 @@
 </nav>
 
 <div class="flex">
+=======
+  <div class="flex">
+>>>>>>> 07f3884272e78ac209250ba58779c8f671659e97
     <!-- Sidebar -->
     <aside class="w-64 bg-blue-900 text-white min-h-screen flex flex-col">
         <div class="p-4 font-bold text-lg flex items-center">
@@ -42,6 +31,7 @@
             <span class="ml-1"></span>
         </div>
         <nav class="flex-1">
+<<<<<<< HEAD
             <a href="" class="block py-6 px-14 hover:bg-blue-900 rounded-full"><h1 class="text-lg font-semibold">Dashboard</h1></a>
             <a href="/user_management" class="block py-8 px-8 hover:bg-blue-700  rounded-full">👤 User</a>
             <a href="/product_crud" class="block py-8 px-8 hover:bg-blue-700 rounded-full">📦 Product</a>
@@ -51,6 +41,16 @@
 
         </nav>
         <div class="p-8 border-t border-sky-300 bg-blue-900 mb-7">
+=======
+            <a href="" class="block py-6 px-14 hover:bg-sky-600 rounded-full"><h1 class="text-lg font-semibold">Dashboard</h1></a>
+            <a href="/user_management" class="block py-8 px-8 hover:bg-sky-600 rounded-full">👤 User</a>
+            <a href="/product_management" class="block py-8 px-8 hover:bg-sky-600 rounded-full">📦 Product</a>
+            <a href="/documents" class="block py-8 px-8 hover:bg-sky-600 rounded-full">📄 Documents</a>
+            <a href="/statistics" class="block py-8 px-8 hover:bg-sky-600 rounded-full">📊 Statistics</a>
+            <a href="/settings" class="block py-10 px-8  hover:bg-sky-600 rounded-full">⚙️ Settings</a>
+        </nav>
+        <div class="p-8 border-t border-sky-400 mb-4">
+>>>>>>> 07f3884272e78ac209250ba58779c8f671659e97
             <a href="/" class="flex items-center">
                 <span class="mr-2">▶️</span> Logout
             </a>
@@ -59,14 +59,16 @@
 
     <!-- Main Content -->
     <div class="flex-1 flex flex-col">
+        <div class="mt-10"></div>
         
-    
+      
         <!-- Table -->
         <main class="p-6">
 
         </main>
 
         <div class="mb-64"></div>
+<<<<<<< HEAD
       
 <footer class="bg-white border-t font-raleway text-[#1C244B]">
   <div class="max-w-[1200px] mx-auto px-4 py-8">
@@ -144,6 +146,8 @@
 </footer>
       
 
+=======
+>>>>>>> 07f3884272e78ac209250ba58779c8f671659e97
     </div>
 </div>
 

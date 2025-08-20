@@ -52,6 +52,7 @@ Route::get('/', function () {
 
 
 //homepage//
+
 Route::get('/product', function () {
     return view('product');
 });
@@ -91,7 +92,7 @@ route::get('/cat_interior', function () {
 
 //produk//
 
-//cart_checkout//
+//pages//
 route::get('/pages', function () {
     return view('pages');
 });
@@ -107,6 +108,11 @@ route::get('/checkout', function () {
 route::get('/payment', function () {
     return view('pages/payment');
 });
+
+route::get('/product_detail', function () {
+    return view('pages/product_detail');
+});
+
 
 // admin dashboard
 Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () {
@@ -127,16 +133,18 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
     
 
 });
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 07f3884272e78ac209250ba58779c8f671659e97
     Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     });
-
 
 
 

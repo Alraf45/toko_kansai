@@ -50,6 +50,7 @@ class ProductController extends Controller
         return redirect()->route('product_crud.index')
             ->with('success','Product created successfully.');
     }
+    
 
     /**
      * Display the specified resource.
@@ -73,7 +74,7 @@ class ProductController extends Controller
      */
     public function update(Request $request, Product $product)
     {
-        $request->validate([
+        $request->validate([   
             'name' => 'required',
             'category' => 'required',
             'color' => 'required',
