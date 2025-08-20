@@ -1,8 +1,6 @@
 @include("layout.header")
 
-<div class="mt-10 max-w-6xl mx-auto h-96 bg-cover bg-center bg-no-repeat shadow-slate-500 overflow-auto"
-     style="background-image: url('/img/Web-side-banner-.png');">
-</div>
+@include("layout.banner")
 
 <div class="mb-20"></div>
 

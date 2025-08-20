@@ -49,8 +49,6 @@ Route::get('/', function () {
 
 
 
-
-
 //homepage//
 
 Route::get('/product', function () {
@@ -91,6 +89,7 @@ route::get('/cat_interior', function () {
 });
 
 //produk//
+
 
 //pages//
 route::get('/pages', function () {
@@ -133,13 +132,6 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
     
 
 });
-<<<<<<< HEAD
-
-
-
-
-=======
->>>>>>> 07f3884272e78ac209250ba58779c8f671659e97
     Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

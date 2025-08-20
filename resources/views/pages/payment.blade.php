@@ -51,7 +51,7 @@
             </p>
             <a href="mailto:admin@eliteai.tools"
                 class="inline-block mt-2 text-xl font-medium text-blue-600 transition-colors duration-200 hover:text-blue-800">
-                atminn@cups.com
+                HO@Kansaicoatings.co.id
             </a>
         </div>
 
