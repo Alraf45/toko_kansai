@@ -3,7 +3,7 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <!-- Container -->
-<div class="swiper mySwiper mt-10 max-w-7xl mx-auto h-96 rounded-lg shadow-lg overflow-hidden">
+<div class="swiper mySwiper mt-16 max-w-7xl mx-auto h-96 rounded-lg overflow-hidden">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
       <img src="/img/Web-side-banner-.png" class="w-full h-full object-cover" />

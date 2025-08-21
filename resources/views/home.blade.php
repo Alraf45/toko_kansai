@@ -2,7 +2,6 @@
 
 @include('layout.banner')
 
-
   <div class="font-bold text-center text-4xl mt-10">
   <h1 class="text-black">Browse By Category</h1>
   </div>
